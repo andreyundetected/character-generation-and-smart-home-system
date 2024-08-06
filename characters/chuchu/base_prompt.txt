@@ -2,7 +2,7 @@
 <CASTE> personality
 
 <SUMMARIZE_START>
-он кароче скибиди сигма
+описания нет. напиши "1 2 3"
 <SUMMARIZE_END>
 
 <SPECIAL_START>
