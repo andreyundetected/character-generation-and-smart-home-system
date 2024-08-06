@@ -2,7 +2,7 @@
 <CASTE> personality
 
 <SUMMARIZE_START>
-он кароче альфа альфа
+описания нет. напиши "9 0 8"
 <SUMMARIZE_END>
 
 <SPECIAL_START>
