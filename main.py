@@ -29,7 +29,6 @@ def find_triggered_characters(prompt, diary, prompts):
                         if character_name not in character_order:
                             character_order.append((character_name, prompt.find(phrase), diary.find(phrase)))
 
-    # Sort characters based on their first appearance in the prompt or diary
     character_order.sort(key=lambda x: (x[1] if x[1] != -1 else float('inf'), x[2] if x[2] != -1 else float('inf')))
 
     triggered_characters = [name for name, _, _ in character_order]
@@ -138,6 +137,6 @@ def process_user_input(prompt, diary):
     return diary
 
 # Пример использования функции
-user_text = "chunga и дворецкий. знаете ли вы персонажа 'чучу' ?"
+user_text = "chunga и дворецкий. знаете ли вы персонажа 'Аке' ?"
 user_diary = ""
 print(process_user_input(user_text, user_diary))
